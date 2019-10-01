@@ -1,0 +1,170 @@
+p, h1, h2, h3, h4, li, button{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.window{
+    width: 100%;
+    height: 100%;
+    background: rgb(106,19,157);
+    background: linear-gradient(207deg, rgba(106,19,157,1) 0%, rgba(12,23,68,1) 100%); 
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.col-12.col-sm-12.col-md-7 p{
+    font-size: 14px;  
+    padding: 20px 0;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.col-12.col-sm-12.col-md-7 h1{
+    font-size: 30px; 
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+.btn.btn-warning.btn-sm.text-dark{
+    padding: 5px 40px;
+    margin-right: 40px;
+}
+
+.photo-big{
+    height: 400px;
+    width: 100%;
+    background: url(images/camera1.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 1px 1px 36px 6px #1c1c1c;
+}
+
+.slider-circle{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    background-color: #737373;
+    border-radius: 10px;
+    margin: 0 8px;
+}
+
+.circle:first-child{
+    background-color: #fff;
+}
+
+.material-icons.arrow{
+    vertical-align: middle;
+    position: relative;
+    top: 0;
+}
+
+.window.bottom{
+    background: #f2f2f2;
+    height: 100vh;
+}
+
+.row.title{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 90%;
+    text-align: center;
+    margin: 0px 0 50px 0;
+}
+
+.row.title h3{
+    color: #737373;
+    font-size: 15px;
+}
+
+.row.title h1{
+    color: #000;
+    font-size: 50px;
+}
+
+.row.title p{
+    margin: 0 auto;
+    color: #737373;
+}
+
+.row.text{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.col-sm-12.col-md-4{
+    padding:  0 10px 0 0;
+    margin-bottom: 50px;
+}
+
+.product-image{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.product-image:hover{
+    filter:brightness(0.8);
+    cursor: pointer;
+}
+
+.col-sm-12.col-md-4:nth-child(1) .product-image{
+    background: url(images/camera2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-sm-12.col-md-4:nth-child(2) .product-image{
+    background: url(images/camera4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-sm-12.col-md-4:nth-child(3) .product-image{
+    background: url(images/camera5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-sm-12.col-md-4 p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    width: 90%;
+}
+
+.col-sm-12.col-md-4 h4{
+    font-size: 15px;
+    color: #171717;
+    font-weight: 600;
+}
+
+.btn.btn-link.btn-sm.d-inline{
+    padding: 0;
+}
